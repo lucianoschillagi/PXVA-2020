@@ -1,0 +1,25 @@
+.Header_Container {
+  margin: 0 auto;
+  width: 90%;
+  /* background-color: cyan; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
+}
+
+.Header_PXDiscos {
+  text-align: center;
+}
+
+.Header_Title {
+  text-align: center;
+  font-size: 4.5em;
+}
+
+.bancamp {
+  padding: 40px 0px 40px 0px;
+  border: 0;
+  width: 100%;
+  height: 480px;
+}

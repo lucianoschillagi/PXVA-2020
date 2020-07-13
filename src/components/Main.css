@@ -1,0 +1,24 @@
+.Main_Container {
+  margin: 0 auto;
+  width: 90%;
+  font-family: 'Rubik', sans-serif;
+  /* background-color: yellow; */
+}
+
+.Musicians_List_Container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.Musicians_List_Row {
+  width: 50%;
+  /* background-color: yellow; */
+}
+
+ul {
+  font-size: 0.9em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
