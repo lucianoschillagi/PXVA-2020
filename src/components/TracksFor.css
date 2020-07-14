@@ -1,13 +1,17 @@
-.Main_Container {
-  margin: 0 auto;
-  width: 95%;
+.TracksFor_Container {
+  width: 100%;
   font-family: 'Rubik', sans-serif;
-  /* background-color: yellow; */
+  background-color:#9f2825;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .Musicians_List_Container {
   display: flex;
   flex-direction: row;
+  padding-top: 20px;
   padding-bottom: 30px;
   /* background-color: orange; */
   text-align: center;

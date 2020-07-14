@@ -8,7 +8,9 @@ class HeaderAnt extends Component {
       <div className="HeaderAnt_Container">
 
         {/* Logo */}
-        <img src={pxLogo} 
+        <img 
+             className="Logo"
+             src={pxLogo} 
              width="20"
              alt="Logo" />
 

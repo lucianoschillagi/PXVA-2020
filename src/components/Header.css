@@ -2,19 +2,27 @@
   margin: 0 auto;
   width: 90%;
   /* background-color: cyan; */
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
   font-family: 'Rubik', sans-serif;
   font-weight: lighter;
 }
 
 .Header_PXDiscos {
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+  color: #9f2825;
 }
 
 .Header_Title {
   text-align: center;
-  font-size: 4.5em;
+  font-size: 4.8em;
+  padding-bottom: 40px;
+  color: #9f2825;
+  /* background: -webkit-radial-gradient(black,gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .bancamp {

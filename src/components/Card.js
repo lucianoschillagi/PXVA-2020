@@ -10,14 +10,13 @@ class Card extends Component {
 
         {/* Cards */}
         <div className="Card_Container">
-          {/* <img src={profilePhoto} 
-              alt="Logo"
-              width="200px" /> */}
-          <h1>{this.props.name}</h1>
 
-          <h2>{this.props.song}</h2>
-
-          <h3>texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema texto relativo al tema  </h3>
+          <em>{this.props.trackNr}</em>
+          <h3>{this.props.artist}</h3>
+          <h2>{this.props.trackName}</h2>
+          <em>{this.props.lenght}</em>
+          <p>{this.props.credits}</p>
+          <p>{this.props.review}</p>
 
           {/* Artist Link */}
           <Link to=""

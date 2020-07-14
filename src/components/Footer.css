@@ -2,7 +2,6 @@
   margin: 0 auto;
   width: 100%;
   height: 70px;
-  background-color: orangered;
 }
 
 .Footer_Container_Centered {
@@ -10,5 +9,4 @@
   width: 80%;
   /* height: 100px; */
   padding-top: 20px;
-  background-color: black;
 }
