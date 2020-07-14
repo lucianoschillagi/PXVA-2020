@@ -1,31 +1,46 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './Footer.css';
 
 class Footer extends Component {
-
   render() {
     return (
-      <Router>
         <div className="Footer_Container">
           <div className="Footer_Container_Centered">
-            <ul>
-              <Link to=""
-                    target="_blank">
-                      Facebook
-              </Link>
-              <Link to=""
-                    target="_blank">
-                      Instagram
-              </Link>
-              <Link to=""
-                    target="_blank">
-                      Planeta X Web
-              </Link>
+            <ul className="Footer_List_Networking">
+              <li>
+                <a href="http://www.planetax.org.ar/web/inicio"
+                      target="_blank">
+                        PX - Website
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.facebook.com/planetaxdiscos/"
+                      target="_blank">
+                        PX - Facebook
+              </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/planetaxdiscos/?hl=es-la"
+                      target="_blank">
+                        PX - Instagram
+                </a>
+              </li>
+
+              <li>
+                <a href="https://planetax.bandcamp.com/"
+                      target="_blank">
+                        PX - Bandcamp
+                </a>
+              </li>
+
+              <li className="Year">
+                - 2020, Rosario, Argentina - 
+              </li>
             </ul>
           </div> 
         </div>
-      </Router>
     );
   }
 }

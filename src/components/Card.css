@@ -5,19 +5,50 @@
   border-style: solid;
   margin-bottom: 20px; */
   margin-bottom: 10px;
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 25px;
   /* background-color: lightblue; */
 }
 
-.Card_Container_Two {
-  width: 100%;
-  box-sizing: border-box;
-  /* border-width: 2px;
-  border-style: solid;
-  margin-bottom: 20px; */
+.Card_TrackNr {
+  background-color: black;
+  color: white;
   margin-bottom: 10px;
-  border: 1px solid black;
-  padding: 25px;
-  /* background-color: rgb(53, 143, 173); */
+  padding: 3px;
+  padding-left: 6px;
+}
+
+.Card_Artist {
+  padding-top: 10px;
+}
+
+.Card_TrackName {
+  padding-top: 8px;
+  font-size: 2.3rem;
+  padding-bottom: 10px;
+  /* background-color: yellow; */
+}
+
+.Card_TrackLenght {
+  padding-top: 3px;
+  padding-bottom: 8px;
+}
+
+.Card_Credits {
+  padding-bottom: 8px;
+}
+
+.Card_TrackDescription {
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+
+.Card_ArtistLinks a {
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  text-decoration: unset;
+  text-align: right;
+  color: black;
 }

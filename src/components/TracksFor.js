@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './TracksFor.css';
 
 class TracksFor extends Component {
   render() {
     return (
-    <Router>
       <div className="TracksFor_Container">
       <h3 className="Musicians">Tracks por</h3>
         {/* Index */}
         <div className="Musicians_List_Container">
           
           <div className="Musicians_List_Row">
-            <ul>
+            <ul className="Musicians_List_Item">
               <li>Klezmer Karaoke Kit</li>
               <li>Blunke</li>
               <li>EGBA</li>
@@ -29,7 +27,7 @@ class TracksFor extends Component {
           </div>
 
           <div className="Musicians_List_Row">
-            <ul>
+          <ul className="Musicians_List_Item">
               <li>Checho</li>
               <li>Mariano Cambiaso</li>
               <li>Antena y Juani Favre</li>
@@ -44,11 +42,8 @@ class TracksFor extends Component {
               <li>Fer Mariño</li>
             </ul>
           </div>
-
-
         </div>
       </div>
-    </Router>
     );
   }
 }

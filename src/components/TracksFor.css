@@ -19,14 +19,18 @@
 
 .Musicians_List_Row {
   width: 50%;
-  /* background-color: yellow; */
 }
 
-ul {
-  font-size: 0.9em;
+/* .Musicians_List_Item {
+  padding: 2px;
+} */
+
+.Musicians_List_Item li {
+  font-size: 1em;
   list-style: none;
   padding: 0;
   margin: 0;
+  padding: 2.5px;
 }
 
 .Musicians {
