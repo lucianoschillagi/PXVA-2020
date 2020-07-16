@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './Card.css';
 
 class Card extends Component {
+
+  handleClick() {
+    this.props.handleClick();
+  }
+
   render() {
     return (
       <div className="Main_Container">
@@ -14,7 +19,12 @@ class Card extends Component {
           <h2 className="Card_TrackName">{this.props.trackName}</h2>
           <p className="Card_TrackLenght">{this.props.lenght}</p>
           <p className="Card_Credits">{this.props.credits}</p>
-          <p className="Card_TrackDescription">{this.props.review}</p>
+          <p className="Card_TrackDescription">{this.props.text}</p>
+
+          {/* Artist Bio */}
+          <button onClick={this.props.handleClick}>
+              ?
+          </button>
 
           {/* Artist Link */}
           <p className="Card_ArtistLinks">

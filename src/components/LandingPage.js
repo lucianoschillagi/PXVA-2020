@@ -3,19 +3,19 @@ import './LandingPage.css';
 
 import Header from './Header';
 import TracksFor from './TracksFor';
-import Main from './Main';
+import Cards from './Cards';
 import Footer from './Footer';
-import
+import PxCatalog from './PxCatalog';
 
 class LandingPage extends Component {
   render() {
     return (
       <div className="LandingPage_Container">
-        {/* <HeaderAnt/> */}
         <Header/>
         <TracksFor/>
-        <Main/>
+        <Cards/>
         <Footer/>
+        <PxCatalog/>
       </div>
     )
   }
