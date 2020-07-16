@@ -28,3 +28,31 @@ ul {
 .Musicians {
   text-align: center;
 }
+
+.Bandcamp {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 75%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* RWD for Tablet */
+@media only screen and (min-width: 600px) {
+  .Main_Container {
+    width: 80%;
+  }
+}
+
+/* RWD for Desktop */
+@media only screen and (min-width: 768px) {
+  .Main_Container {
+    padding-top: 20px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+}

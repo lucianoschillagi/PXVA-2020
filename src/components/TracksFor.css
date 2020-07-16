@@ -4,8 +4,8 @@
   background-color:#9f2825;
   margin-top: 45px;
   margin-bottom: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .Musicians_List_Container {
@@ -35,4 +35,37 @@
 
 .Musicians {
   text-align: center;
+}
+
+/* RWD for Tablet */
+@media only screen and (min-width: 600px) {
+  .Musicians_List_Container {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+/* RWD for Tablet */
+@media only screen and (min-width: 600px) {
+
+  .Musicians {
+    font-size: 1.4rem;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .Musicians_List_Container {
+    font-size: 1.2rem;
+  }
+}
+
+/* RWD for Desktop */
+@media only screen and (min-width: 768px) {
+  .Musicians {
+    font-size: 1.6rem;
+  }
+  .Musicians_List_Container {
+    font-size: 1.45rem;
+    width: 45%;
+  }
 }

@@ -2,6 +2,7 @@
   "name": "px-2020",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://planetax.org.ar/pxva2020/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,13 +12,12 @@
     "react-dom": "^16.13.1",
     "react-pose": "^4.0.10",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-transition-group": "^4.4.1"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
