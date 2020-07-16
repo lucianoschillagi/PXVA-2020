@@ -75,9 +75,9 @@ class Footer extends Component {
               </li>
 
               {/* Agradecimientos */}
-              {/* <li className="Year">
-                <em>Gracias a Ana Heller, Sergio Passaro, Federico Lazcano...</em>
-              </li> */}
+              <li className="Year">
+                <em>Gracias Ana Heller, Sergio Passaro, Federico Lazcano, Emi Boero...</em>
+              </li>
 
               <li className="Year">
                 — 2020, Rosario, Argentina —

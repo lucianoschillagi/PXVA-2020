@@ -4,6 +4,7 @@ import './LandingPage.css';
 import Header from './Header';
 import TracksFor from './TracksFor';
 import Cards from './Cards';
+import Player from './Player';
 import Footer from './Footer';
 import PxCatalog from './PxCatalog';
 

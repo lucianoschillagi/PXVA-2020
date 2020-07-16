@@ -29,15 +29,6 @@ ul {
   text-align: center;
 }
 
-.Bandcamp {
-  display: block;
-  margin-top: 50px;
-  margin-bottom: 150px;
-  width: 75%;
-  height: 500px;
-  margin: 0 auto;
-}
-
 /* RWD for Tablet */
 @media only screen and (min-width: 600px) {
   .Main_Container {

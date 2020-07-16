@@ -504,10 +504,6 @@ class Cards extends Component {
               artistNet={this.artists.artistTwentyfour.artistNet}
               handleClick={this.handleClick}       
         />
-        <iframe className="Bandcamp" 
-                src="https://bandcamp.com/EmbeddedPlayer/album=564362740/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://planetax.bandcamp.com/album/px-100">PX 100 by Planeta X</a>
-        </iframe>
-
       </div>
     );
   }
