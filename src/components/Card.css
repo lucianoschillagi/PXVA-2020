@@ -41,6 +41,19 @@
 .Card_TrackDescription {
   padding-top: 15px;
   padding-bottom: 8px;
+  font-size: 1.05rem;
+  opacity: 0.8;
+}
+
+.Card_Artist_Bio {
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-style: italic;
+  /* font-weight: lighter; */
+  font-size: 0.95rem;
+  opacity: 0.4;
 }
 
 .Card_ArtistLinks a {

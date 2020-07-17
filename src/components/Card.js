@@ -19,12 +19,10 @@ class Card extends Component {
           <h2 className="Card_TrackName">{this.props.trackName}</h2>
           <p className="Card_TrackLenght">{this.props.lenght}</p>
           <p className="Card_Credits">{this.props.credits}</p>
-          <p className="Card_TrackDescription">{this.props.text}</p>
+          <p className="Card_TrackDescription">{this.props.review}</p>
 
           {/* Artist Bio */}
-          <button onClick={this.props.handleClick}>
-              ?
-          </button>
+          <p className="Card_Artist_Bio">{this.props.bio}</p>
 
           {/* Artist Link */}
           <p className="Card_ArtistLinks">

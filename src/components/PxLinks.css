@@ -1,0 +1,28 @@
+.PxLinks_Container {
+  width: 70%;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #9f2825;
+  padding: 30px;
+  border-radius: 10px;
+  color: #9f2825;
+}
+
+.PxLinks_List_Networking li a {
+  text-decoration: none;
+  color: #9f2825;
+}
+
+.PxLinks_List_Networking li {
+  display: flexbox;
+  flex-direction: column;
+  padding: 5px;
+  text-align: center;
+}
+
+.PxLinks_SF_YT {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  font-weight: bold;
+}

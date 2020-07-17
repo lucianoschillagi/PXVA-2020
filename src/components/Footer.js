@@ -7,40 +7,17 @@ class Footer extends Component {
     return (
         <div className="Footer_Container">
           <div className="Footer_Container_Centered">
-            
+
+
             <ul className="Footer_List_Networking">
 
-              {/* PXVA-2020 Spotify */}
-              {/* <li>
-                <a href="http://www.planetax.org.ar/web/inicio"
-                   target="_blank">
-                        PXVA2020 — Spotify
-                </a>
-              </li> */}
-
-              {/* PXVA-2020 iTunes */}
-              {/* <li>
-                <a href="http://www.planetax.org.ar/web/inicio"
-                   target="_blank">
-                        PXVA2020 — iTunes
-                </a>
-              </li> */}
-
-              {/* PXVA-2020 Tidal */}
-              {/* <li>
-                <a href="http://www.planetax.org.ar/web/inicio"
-                   target="_blank">
-                        PXVA2020 — Tidal
-                </a>
-              </li> */}
-
               {/* PX Website */}
-              <li>
+              {/* <li>
                 <a href="http://www.planetax.org.ar/web/inicio"
                    target="_blank">
                         PX — Website
                 </a>
-              </li>
+              </li> */}
 
               {/* PX Facebook */}
               <li>
@@ -66,17 +43,20 @@ class Footer extends Component {
                 </a>
               </li>
 
-              {/* PX Youtube */}
+              {/* PX Spotify */}
               <li>
-                <a href="https://youtube.com/"
+                <a href="https://open.spotify.com/album/0t8OA93jRuxjU0rWqCt0QI?si=-eH6PlbKTK-NAgdUGlA4Wg"
                    target="_blank">
-                        PX — Youtube
+                        PX — Spotify
                 </a>
               </li>
 
-              {/* Agradecimientos */}
-              <li className="Year">
-                <em>Gracias Ana Heller, Sergio Passaro, Federico Lazcano, Emi Boero...</em>
+              {/* PX Youtube */}
+              <li>
+                <a href="https://m.youtube.com/playlist?list=PLTm6sW8CHIlLTY_sJUnufQCJdVU0yaaF5"
+                   target="_blank">
+                        PX — Youtube
+                </a>
               </li>
 
               <li className="Year">
@@ -91,6 +71,28 @@ class Footer extends Component {
               </li>
 
             </ul>
+
+
+            {/* Credits */}
+            <ul className="Footer_List_Credits">
+              <li>
+                Masterización: Charlie Egg
+              </li>
+              <li>
+                Tracklist: Franco Ingrassia
+              </li>
+              <li>
+                Diseño gráfico: Joaquina Parma
+              </li>
+              <li>
+                Videos: Rodrigo Jávega
+              </li>
+              <li>
+                Sitio web: Luciano Schillagi
+              </li>
+            </ul>
+
+
           </div> 
         </div>
     );

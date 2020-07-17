@@ -1,12 +1,13 @@
 .Player_Container {
-  width: 80%;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 300px;
+  padding-bottom: 150px;
+  background-color: black;
+}
+
+.Player_Container_Centered {
+  width: 90%;
   margin: 0 auto;
 }
 
-.Bandcamp {
-  display: block;
-  width: 85%;
-  height: 1400px;
-  margin: 0 auto;
-  background-color: red;
-}
