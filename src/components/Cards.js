@@ -21,7 +21,7 @@ class Cards extends Component {
         artist: "Blunke",
         trackName: "BLKN 09",
         lenght: "[04:07]",
-        review: "La electrónica y el post rock coquetean al ritmo de una danza oscura y profunda",
+        review: "La electrónica y el post rock coquetean al ritmo de una danza oscura y profunda.",
         bio: "Fernando Blunke es compositor y productor de música ambient y electrónica experimental.",
         artistNet: "https://soundcloud.com/user-448319176?ref=whatsapp"
       },
@@ -40,7 +40,6 @@ class Cards extends Component {
         artist: "Dj Cutx",
         trackName: "Kinkscut",
         lenght: "[04:41]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "Collage compuesto con recortes de diferentes tracks: cortar, procesar y pegar.",
         bio: "DJ y productora musical, también conocida como Mariu Velazquez.",
         artistNet: "https://m.mixcloud.com/djcutex/"
@@ -50,7 +49,6 @@ class Cards extends Component {
         artist: "Gina Valenti",
         trackName: "Oriente",
         lenght: "[02:00]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "Un torbellino de notas y emociones nos adentran en el singular y exquisito universo de la genial pianista Gina Valenti.",
         bio: "Gina Valenti es artista y Docente Titular en la Facultad de Humanidades y Artes de la U.N.R. Es Creadora y Directora del 404 Festival Internacional de Arte y Tecnología. Como compositora se ha presentado en Inglaterra, Italia, Suiza, Taiwán, Japón, Rusia, , Suiza, Bélgica, Austria, Estados Unidos y Argentina. Actualmente dirige la Academia de Arte y Tecnología “Ctrl+Z”.",
         artistNet: "https://ginavalenti.com.ar"
@@ -60,7 +58,6 @@ class Cards extends Component {
         artist: "Charlie Egg",
         trackName: "Aerosilla",
         lenght: "[04:53]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "Aerosilla combina elementos orgánicos y sintéticos en un clima onírico y atemporal. Producido por Egg con la participación en trompeta de Eduardo Vignoli.",
         bio: "Músico y productor, pionero de la música electrónica en la ciudad de Rosario. Fundador de Sinapsis.",
         artistNet: "https://linktr.ee/charlieegg"
@@ -70,7 +67,6 @@ class Cards extends Component {
         artist: "Irina Cagnin",
         trackName: "Respiración cutánea",
         lenght: "[03:13]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "Plena expresión de los sentimientos volcados sin filtros. Voz y guitarra acompañada por los artilugios de la tecnología. Grabación y colaboración; Lautaro Vial.",
         bio: "Cantante, trompetista, guitarrista, compositora. Integrante de Irina y el reloj y Eterno Retorno.",
         artistNet: "https://irinayelreloj.bandcamp.com/"
@@ -80,16 +76,16 @@ class Cards extends Component {
         artist: "Lalo and-Rex",
         trackName: "Archu shuffle",
         lenght: "[02:07]",
-        review: "Diálogo de R2-D2 compuesto de guitarras grabadas por Andrés Mantello sobre un ritmo de batería, en ludo de delays",
+        review: "Diálogo de R2-D2 compuesto de guitarras grabadas por Andrés Mantello sobre un ritmo de batería, en ludo de delays.",
         bio: "Pseudónimo de Leandro Giandomenico, músico, profesor, percusionista. Integrante de Los Señores, Cromattista y Salaon. También fue baterista de Sumergido y Sinapsis.",
         artistNet: ""
       },
       artistNine: {
         trackNr: "09",
         artist: "Alpha Centauri",
-        trackName: "Arquitect of light",
+        trackName: "Arquitect Of Light",
         lenght: "[01:31]",
-        review: "'Architec of Light' es una composición de Cristian Leonardo Abaca. La misma fue realizada por el músico en una sesión de improvisación con sintetizadores y fue incluida también en su disco  'Post mortem'",
+        review: "'Arquitect Of Light' es una composición de Cristian Leonardo Abaca. La misma fue realizada por el músico en una sesión de improvisación con sintetizadores y fue incluida también en su disco  'Post mortem'.",
         bio: "Proyecto musical de Cristian Leonardo Abaca, el cual lleva adelante desde el año 2006 junto a destacados invitados de la escena musical. Rock progresivo, psicodelia y kraut rock son algunos de las influencias que abordan en sus cinco discos editados.",
         artistNet: "https://alphacentauri1.bandcamp.com/"
       },
@@ -108,7 +104,7 @@ class Cards extends Component {
         trackName: "Objeto irregular",
         lenght: "[05:24]",
         review: "Profundidad de los graves - De un ritmo oscilante - Afinado desafinado - Sobre un piso de hielo.",
-        bio: "Compositor, guitarista y programador. Con dos discos publicados: '1500 kilómetros' y 'Delay parte a'",
+        bio: "Compositor, guitarista y programador. Con dos discos publicados: '1500 kilómetros' y 'Delay parte a'.",
         artistNet: "https://luko.bandcamp.com/"
       },
       artistTwelve: {
@@ -116,7 +112,6 @@ class Cards extends Component {
         artist: "Audiodélica",
         trackName: "Valladares",
         lenght: "[11:16]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "La vidala santiagueña “Por esos montes” sometida a una  alteración extrema de su velocidad de reproducción.",
         bio: "Proyecto de experimentación e investigación sonora.",
         artistNet: "https://audiodelica.bandcamp.com/track/silent-night"
@@ -144,7 +139,7 @@ class Cards extends Component {
         artist: "Antena y Juani Favre",
         trackName: "Vapor de ciudad",
         lenght: "[05:49]",
-        review: "Improvisación efímera donde los instrumentos musicales de funden con el sonido ambiente.",
+        review: "Improvisación efímera donde los instrumentos musicales se funden con el sonido ambiente.",
         bio: "Antena es cantante, guitarrista y compositora, además integra el grupo Lxs Peces. Juani Favre es compositor, cantante, multi instrumentista, productor, ingeniero de sonido y docente.",
         artistNet: "https://juanifavre.bandcamp.com/"
       },
@@ -180,9 +175,8 @@ class Cards extends Component {
         artist: "MXWK",
         trackName: "A través de la noche",
         lenght: "[02:53]",
-        credits: "Pablo Elimbaum Guitarras y Producción",
         review: "Casi como el sound-track de una película de ciencia ficción, 'A través de la noche' logra abducirnos por un instante, haciéndonos viajar al espacio exterior.",
-        bio: "Un no-músico que en ocasiones, disfruta hacer composiciones sonoras de estilo electrónico. En 2003 edito el álbum 'Ambient'",
+        bio: "Un no-músico que en ocasiones, disfruta hacer composiciones sonoras de estilo electrónico. En 2003 edito el álbum 'Ambient'.",
         artistNet: ""
       },
       artistTwenty: {
@@ -219,7 +213,7 @@ class Cards extends Component {
         trackName: "No soy leyenda",
         lenght: "[03:33]",
         review: "Composición espontánea, grabada en Barcelona en febrero de 2019 entre Aníbal Pérez (Groovebox  Roland Mc 505) y Martim Arce (Sintetizadores virtuales). Posproducción realizada en mayo de 2020 por A. Pérez y Maximiliano Vaccarini.",
-        bio: "Baterista y percusionista de los grupos San Dimas, Päl Das Shutter y Korben Dallas",
+        bio: "Baterista y percusionista de los grupos San Dimas, Päl Das Shutter y Korben Dallas.",
         artistNet: "https://otrokorbendallas.bandcamp.com/"
       },
       artistTwentyfour: {
@@ -227,14 +221,12 @@ class Cards extends Component {
         artist: "Fer Mariño",
         trackName: "Que",
         lenght: "[16:27]",
-        credits: "Grabaciones y programación Fer Mariño",
         review: "Un track que por su extensión y dinámica opera como un disco dentro del disco. Un viaje onírico donde la oscuridad se vuelve seductora.",
         bio: "DJ y productor musical. Fue integrante del grupo experimental Etaro.",
         artistNet: "https://fermarino808.bandcamp.com/releases"
       },
     }
 
- 
   render() {
     return (
       <div className="Main_Container">
